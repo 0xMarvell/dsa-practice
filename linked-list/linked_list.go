@@ -22,7 +22,7 @@ func (l linkedList) printListData() {
 	nodeToPrint := l.head
 	fmt.Printf("linked List: ")
 	for l.length != 0 {
-		fmt.Printf("{%v} ", nodeToPrint.data)
+		fmt.Printf("{%v}-> ", nodeToPrint.data)
 		nodeToPrint = nodeToPrint.next
 		l.length--
 	}
